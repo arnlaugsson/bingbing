@@ -1,0 +1,22 @@
+{
+  "name": "bingbing",
+  "version": "0.0.1",
+  "description": "Bing! Grab your slack notification, log it, and sound the alarm.",
+  "main": "index.js",
+  "repository": "git@github.com:arnlaugsson/bingbing.git",
+  "author": "Skuli Arnlaugsson",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js",
+    "start": "NODE_ENV=production node index.js",
+    "eslint": "eslint"
+  },
+  "dependencies": {
+    "@slack/bolt": "^1.4.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^6.7.2"
+  }
+}
